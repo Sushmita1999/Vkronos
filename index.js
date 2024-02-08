@@ -41,7 +41,7 @@ app.get("/", async (req, res) => {
     EMEA: "4:00PM to 1:00 AM",
     SEAK: "6:00 AM to 3:00 PM IST"
   };
-  console.log("This is it");
+  console.log("test");
   console.log(req.cookies);
   let s = await auth(req, res);
   console.log("Response after auth is", s);
