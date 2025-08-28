@@ -71,7 +71,7 @@ app.get("/", async (req, res) => {
       });
     }
   } else {
-    console.log("Hi there, this is a test devxbcjhelopment test fbdhbcor");
+    console.log("Hi there, this is a test devxbcjhelopment test commit");
     res.render("signup_sign", {
       error: ""
     });
