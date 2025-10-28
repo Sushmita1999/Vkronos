@@ -22,8 +22,8 @@ jobs:
     environment: frogbot
     steps:
 
-      # - name: Checkout code
-      #   uses: actions/checkout@v2  # Add this step
+      - name: Checkout code
+        uses: actions/checkout@v2  # Add this step
 
       - uses: jfrog/frogbot@v2
         env:
