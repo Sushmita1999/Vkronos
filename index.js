@@ -31,7 +31,7 @@ app.use("/manager", manager);
 app.use("/break", breakroute);
 app.use("/forgot", forgotpass1);
 console.log("test");
-//app.set('views','./views')
+//app.set('views','./views')testinvxbcvj
 app.set("views", "./views");
 app.set("view engine", "ejs");
 app.get("/", async (req, res) => {
